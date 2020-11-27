@@ -22,10 +22,9 @@ exports.modules
     class MainPage extends webPage {
         constructor(url)
         {
-            super('',url);
+            super('mainPage',url);
             this.name = 'mainPage';            
         }
-        
     }
     
 };

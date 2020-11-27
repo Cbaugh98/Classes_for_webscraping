@@ -11,23 +11,7 @@ exports.modules
             setName(name);
             this.website = new Website(name, url);
             let website = new schoolSite();
-        }
-
-        // setMainPage(url) {
-        //     if (url) {this.mainPage = url;}
-        //     else {this.mainPage = 'https://www.mc3.edu/';}
-        // }
-        // TODO movethis
-        // async getwholePage(websitePath) {
-        //     const browser = await puppeteer.launch();
-        //     const page = await browser.newPage();
-        //     await page.goto(websitePath);
-        //     const pagetxt = await page.content();
-        //     browser.close();
-        //     return(pagetxt);
-        // }
-        
-        
+        }   
     }
     
 };
