@@ -6,11 +6,12 @@ exports.modules
          * Constructor for a school
          * @param {String} name  School name
          * @param {String} url Main page URL
+         * @param {Number} guild Discord Guild id
          */
-        constructor(name,url) {
+        constructor(name,url,guild) {
             setName(name);
             this.website = new Website(name, url);
-            let website = new schoolSite();
+            this.guild = guild;
         }   
     }
     
